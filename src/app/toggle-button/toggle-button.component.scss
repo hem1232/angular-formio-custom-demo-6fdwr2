@@ -1,0 +1,51 @@
+.toggle-button-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toggle-button-container {
+  display: flex;
+  justify-content: left;
+  width: 120px;
+  height: 120px;
+}
+
+.test-button .mat-button-wrapper {
+  display: inline!important;
+  line-height: 17px!important;
+}
+
+button {
+  padding: 8px;
+  word-break: break-word;
+  white-space: pre-wrap !important;
+  box-shadow: none !important;
+  font-size: 13px;
+
+  .mat-icon {
+      margin-bottom: 10px;
+      color: #2d98cc;
+      width: 100%;
+      font-size: 30px;
+  }
+
+  &.mat-fab {
+      border-radius: 4px!important;
+      background-color: white;
+      border: 1px solid rgb(190, 190, 190);
+      color: black;
+      width: 97px;
+      height: 97px;
+  }
+
+  &.active {
+      background-color: #2d98cc;
+      border: 1px solid #2d98cc;
+      color: white;
+
+      .mat-icon {
+          color: white;
+      }
+  }
+}
+

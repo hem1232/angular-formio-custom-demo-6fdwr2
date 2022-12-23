@@ -1,0 +1,45 @@
+.form-builder {
+	&-form {
+		padding: 50px 50px;
+	}
+
+	&-preview {
+		overflow-y: hidden;
+		overflow-x: hidden;
+		margin-top: 60px;
+		min-height: 500px;
+	}
+
+	&-design {
+		margin-top: 60px;
+	}
+
+	&-name {
+		width: 100%;
+	}
+
+	&-form-group {
+		text-align: center;
+	}
+
+	&-buttons {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	&-right-button {
+		margin-left: 50px;
+		width: 178px;
+		height: 45px;
+		border-radius: 4px;
+		opacity: 1;
+	}
+
+	&-left-button {
+		width: 178px;
+		height: 45px;
+		border-radius: 4px;
+		opacity: 1;
+	}
+}

@@ -1,0 +1,11 @@
+<div class="toggle-button-flex-container">
+  <ng-container *ngFor="let option of options">
+      <div class="toggle-button-container">
+          <button mat-fab (click)="onClick(option.value)"
+              [ngClass]="value && value[option.value] ? 'active' : ''">
+              <mat-icon *ngIf="option.icon">{{ option.icon }}</mat-icon>
+              <div>{{ option.label }}</div>
+          </button>
+      </div>
+  </ng-container>
+</div>
